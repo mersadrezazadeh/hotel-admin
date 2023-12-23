@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply outline-2 transition-colors duration-300 focus:outline focus:outline-brand-600;
+  }
+  /************************/
+  /* File selector button */
+  /************************/
+  /* Fallback for Safari, Chrome, and Opera */
+  ::-webkit-file-upload-button {
+    @apply ml-3 cursor-pointer rounded border-0 bg-brand-600 p-2 font-medium text-brand-50 transition-all duration-300 hover:bg-brand-700;
+  }
+  /* Fallback for Legacy Edge and IE */
+  ::-ms-browse {
+    @apply ml-3 cursor-pointer rounded border-0 bg-brand-600 p-2 font-medium text-brand-50 transition-all duration-300 hover:bg-brand-700;
+  }
+  /* Standard */
+  ::file-selector-button {
+    @apply ml-3 cursor-pointer rounded border-0 bg-brand-600 p-2 font-medium text-brand-50 transition-all duration-300 hover:bg-brand-700;
+  }
+  /*************/
+  /* Scrollbar */
+  /*************/
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #7c3aed;
+  }
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    @apply h-[10px] w-[10px];
+  }
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-3xl bg-brand-600 hover:bg-brand-700;
+  }
+  *::-webkit-scrollbar-track {
+    @apply rounded-3xl bg-gray-200 dark:bg-gray-800;
+  }
+}
+
+@layer components {
+  .spinner-gradient {
+    background:
+      radial-gradient(farthest-side, #7c3aed 94%, #0000) top/10px 10px no-repeat,
+      conic-gradient(#0000 30%, #7c3aed);
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      #0000 calc(100% - 10px),
+      #000 0
+    );
+    mask: radial-gradient(farthest-side, #0000 calc(100% - 10px), #000 0);
+  }
+  .hidden-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+}
