@@ -36,7 +36,7 @@ function MainNav({ isToggled, handleToggleNav, handleCloseNav }) {
             onClick={handleCloseNav}
           >
             <HiOutlineHome className={iconStyles} />
-            <span>صفحه اصلی</span>
+            <span className="text-gray-700 dark:text-gray-200">صفحه اصلی</span>
           </NavLink>
         </li>
 
@@ -49,7 +49,7 @@ function MainNav({ isToggled, handleToggleNav, handleCloseNav }) {
             onClick={handleCloseNav}
           >
             <HiOutlineCalendarDays className={iconStyles} />
-            <span>رزرو</span>
+            <span className="text-gray-700 dark:text-gray-200">رزرو</span>
           </NavLink>
         </li>
 
@@ -62,7 +62,7 @@ function MainNav({ isToggled, handleToggleNav, handleCloseNav }) {
             onClick={handleCloseNav}
           >
             <HiOutlineHomeModern className={iconStyles} />
-            <span>ویلا</span>
+            <span className="text-gray-700 dark:text-gray-200">ویلا</span>
           </NavLink>
         </li>
 
@@ -75,7 +75,7 @@ function MainNav({ isToggled, handleToggleNav, handleCloseNav }) {
             onClick={handleCloseNav}
           >
             <HiOutlineUsers className={iconStyles} />
-            <span>کاربر</span>
+            <span className="text-gray-700 dark:text-gray-200">کاربر</span>
           </NavLink>
         </li>
 
@@ -88,7 +88,7 @@ function MainNav({ isToggled, handleToggleNav, handleCloseNav }) {
             onClick={handleCloseNav}
           >
             <HiOutlineCog6Tooth className={iconStyles} />
-            <span>تنظیمات</span>
+            <span className="text-gray-700 dark:text-gray-200">تنظیمات</span>
           </NavLink>
         </li>
       </ul>

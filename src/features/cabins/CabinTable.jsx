@@ -40,11 +40,11 @@ function CabinTable() {
     <Menus>
       <Table columns="grid-cols-[25%,10%,20%,15%,10%,10%]">
         <Table.Header>
-          <div></div>
-          <div>ویلا</div>
-          <div>ظرفیت</div>
-          <div>قیمت</div>
-          <div>تخفیف</div>
+          <div className="text-gray-700 dark:text-gray-200"></div>
+          <div className="text-gray-700 dark:text-gray-200">ویلا</div>
+          <div className="text-gray-700 dark:text-gray-200">ظرفیت</div>
+          <div className="text-gray-700 dark:text-gray-200">قیمت</div>
+          <div className="text-gray-700 dark:text-gray-200">تخفیف</div>
           <div></div>
         </Table.Header>
         <Table.Body

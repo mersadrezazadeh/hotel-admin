@@ -18,11 +18,21 @@ function BookingTable() {
     <Menus>
       <Table columns="grid-cols-[5%,25%,25%,15%,15%,10%]">
         <Table.Header>
-          <div className="justify-self-center">ویلا</div>
-          <div className="justify-self-center">مهمان</div>
-          <div className="justify-self-center">تاریخ</div>
-          <div className="justify-self-center">وضعیت</div>
-          <div className="justify-self-center">مبلغ</div>
+          <div className="justify-self-center text-gray-700 dark:text-gray-200">
+            ویلا
+          </div>
+          <div className="justify-self-center text-gray-700 dark:text-gray-200">
+            مهمان
+          </div>
+          <div className="justify-self-center text-gray-700 dark:text-gray-200">
+            تاریخ
+          </div>
+          <div className="justify-self-center text-gray-700 dark:text-gray-200">
+            وضعیت
+          </div>
+          <div className="justify-self-center text-gray-700 dark:text-gray-200">
+            مبلغ
+          </div>
           <div></div>
         </Table.Header>
 

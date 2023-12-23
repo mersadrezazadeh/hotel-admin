@@ -12,7 +12,9 @@ function UserAvatar() {
         alt={`تصویر ${fullName}`}
         className="block aspect-square w-9 rounded-full object-cover object-center outline-2 outline-gray-100 dark:outline-gray-800"
       />
-      <span className="text-xs xs:text-sm">{toPersianNumber(fullName)}</span>
+      <span className="text-xs text-gray-700 dark:text-gray-200 xs:text-sm">
+        {toPersianNumber(fullName)}
+      </span>
     </div>
   );
 }
