@@ -13,7 +13,7 @@ import Tag from "../../ui/Tag";
 import BookingDataBox from "./BookingDataBox";
 import Button from "../../ui/Button";
 import Modal from "../../ui/Modal";
-import ConfirmDelete from "../../ui/confirmDelete";
+import ConfirmDelete from "../../ui/ConfirmDelete";
 import Spinner from "../../ui/Spinner";
 import Empty from "../../ui/Empty";
 
