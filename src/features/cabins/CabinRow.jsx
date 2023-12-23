@@ -8,7 +8,7 @@ import Table from "../../ui/Table";
 import Menus from "../../ui/Menus";
 import CreateCabinForm from "./CreateCabinForm";
 import Modal from "../../ui/Modal";
-import ConfirmDelete from "../../ui/confirmDelete";
+import ConfirmDelete from "../../ui/ConfirmDelete";
 
 function CabinRow({ cabin }) {
   const { isDeleting, deleteCabin } = useDeleteCabin();
