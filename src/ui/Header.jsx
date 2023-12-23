@@ -1,5 +1,5 @@
 import HeaderMenu from "./HeaderMenu";
-import UserAvatar from "./userAvatar";
+import UserAvatar from "./UserAvatar";
 
 function Header() {
   return (
