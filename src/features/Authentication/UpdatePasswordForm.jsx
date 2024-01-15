@@ -56,7 +56,7 @@ function UpdatePasswordForm() {
         <Button type="reset" variation="secondary" onClick={reset}>
           انصراف
         </Button>
-        <Button disabled={isUpdating}>بروزرسانی</Button>
+        <Button disabled={true}>بروزرسانی</Button>
       </FormRow>
     </Form>
   );
