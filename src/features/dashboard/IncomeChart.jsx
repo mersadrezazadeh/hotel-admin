@@ -67,7 +67,6 @@ dark:border-gray-800 dark:bg-gray-850 sm:px-4 [&_line]:stroke-gray-300 dark:[&_l
             dataKey="label"
             tick={{ fill: colors.text, fontSize: "14px" }}
             tickLine={{ stroke: colors.text }}
-            reversed={true}
           />
 
           <YAxis
