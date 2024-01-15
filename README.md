@@ -13,5 +13,5 @@ Vite, React, JavaScript, TailwindCSS, Supabase, TanStack Query, React Router, Re
 ## Screenshot
 
 <div align='center'>
-<img src='https://github.com/mersad98/car-rental/assets/141646504/b9561ee4-a852-43be-ac3f-3bc0119d5a33'
+<img src='https://github.com/mersadrezazadeh/hotel-admin/assets/141646504/5847cd82-347d-4263-9e1f-e3aab811d3d2'
 </div>
