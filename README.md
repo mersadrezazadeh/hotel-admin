@@ -17,7 +17,7 @@ Recharts<br/>
 
 ## Demo
 
-<a href='https://car-rental-mersad.netlify.app/'>hotel-admin-mersad.netlify.app</a>
+<a href='https://hotel-admin-mersad.netlify.app/'>hotel-admin-mersad.netlify.app</a>
 
 ## Screenshot
 
