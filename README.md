@@ -4,16 +4,16 @@ Hotel Admin is a comprehensive web application that enables hotel employees to m
 
 ## Tech Stack
 
-Vite
-React
-JavaScript
-TailwindCSS
-Supabase
-TanStack Query
-React Router
-React Hook Form
-React Hot Toast
-Recharts
+Vite<br/>
+React<br/>
+JavaScript<br/>
+TailwindCSS<br/>
+Supabase<br/>
+TanStack Query<br/>
+React Router<br/>
+React Hook Form<br/>
+React Hot Toast<br/>
+Recharts<br/>
 
 ## Demo
 
