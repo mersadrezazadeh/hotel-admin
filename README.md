@@ -12,6 +12,6 @@ Vite, React, JavaScript, TailwindCSS, Supabase, TanStack Query, React Router, Re
 
 ## Screenshot
 
-<div align='center'>
+
 <img src=''
-</div>
+
