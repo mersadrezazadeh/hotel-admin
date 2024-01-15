@@ -73,7 +73,6 @@ dark:border-gray-800 dark:bg-gray-850 sm:px-4 [&_line]:stroke-gray-300 dark:[&_l
             dx={55}
             tick={{ fill: colors.text, fontSize: "12px" }}
             tickLine={{ stroke: colors.text }}
-            orientation="right"
           />
 
           <CartesianGrid strokeDasharray="3" />
